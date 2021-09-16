@@ -1,5 +1,6 @@
 body {
 	background: black;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .postcard {
@@ -7,6 +8,7 @@ body {
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	padding: 10px
 }
 .postcard-header {
 	display: flex;
@@ -32,14 +34,20 @@ body {
 	padding: 10px;
 }
 
-.input {
-	border: none border-bottom 1px grey solid;
+input {
+	border: none;
+	border-bottom: 1px solid black;
+	padding: 4px;
+	margin: 4px;
+	
+	
 }
 .postcard-footer {
 	text-align: center;
 }
 button {
 	background-color: #dbdbdd;
-	padding: 5px 10px;
+	padding: 10px 20px;
 	border: none;
+	
 }
